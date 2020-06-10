@@ -6,6 +6,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = "title".localized
+        titleLabel.adjustsFontSizeToFitWidth = true
         let upSwipeGesture = UISwipeGestureRecognizer(target: self, action: #selector(swipeAction(_:)))
         upSwipeGesture.direction = .left
         view.addGestureRecognizer(upSwipeGesture)

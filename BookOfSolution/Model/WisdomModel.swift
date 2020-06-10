@@ -3,7 +3,11 @@ import GoogleMobileAds
 
 let widoms : [String] = [
     "wisdom1".localized, "wisdom2".localized, "wisdom3".localized, "wisdom4".localized,
-    "wisdom5".localized, "wisdom6".localized
+    "wisdom5".localized, "wisdom6".localized, "wisdom7".localized, "wisdom8".localized,
+    "wisdom9".localized, "wisdom10".localized, "wisdom11".localized,
+    "wisdom12".localized, "wisdom13".localized, "wisdom14".localized,
+    "wisdom15".localized, "wisdom16".localized, "wisdom17".localized,
+    "wisdom18".localized, "wisdom19".localized, "wisdom20".localized
 
     ]
 
