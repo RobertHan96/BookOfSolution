@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="BookOfSolution" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="handwriting-1362879_1920" translatesAutoresizingMaskIntoConstraints="NO" id="asg-rQ-ew0">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="책을 넘겨서 조언을 확인하세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXZ-Wp-hCb">
+                                <rect key="frame" x="58.5" y="119.5" width="297" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="asg-rQ-ew0" secondAttribute="trailing" id="AiA-Ap-dDw"/>
+                            <constraint firstItem="wXZ-Wp-hCb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.3" id="CJe-Gg-nZI"/>
+                            <constraint firstItem="wXZ-Wp-hCb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PrK-Nm-fdB"/>
+                            <constraint firstItem="asg-rQ-ew0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZVj-md-XLG"/>
+                            <constraint firstAttribute="bottom" secondItem="asg-rQ-ew0" secondAttribute="bottom" id="rPS-mg-ERD"/>
+                            <constraint firstAttribute="top" secondItem="asg-rQ-ew0" secondAttribute="top" id="sY3-S4-50M"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="wXZ-Wp-hCb" id="iPP-N9-JLx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+        <!--Solution View Controller-->
+        <scene sceneID="AnI-4w-99g">
+            <objects>
+                <viewController storyboardIdentifier="wisdomVC" id="mx2-1u-uE3" customClass="SolutionViewController" customModule="BookOfSolution" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UfK-mo-6ek">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-1742166_1280" translatesAutoresizingMaskIntoConstraints="NO" id="O1E-Lw-1Dn">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" red="0.80756265862944165" green="0.66006745068070682" blue="0.4759807310555218" alpha="0.1407052654109589" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5eJ-BI-HEC">
+                                <rect key="frame" x="80" y="384" width="254" height="128"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="당신은 이미 답을 알고있다" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6YX-Gl-wsK">
+                                <rect key="frame" x="80" y="433" width="254" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="O1E-Lw-1Dn" firstAttribute="top" secondItem="UfK-mo-6ek" secondAttribute="top" id="3Pi-dF-hHb"/>
+                            <constraint firstItem="O1E-Lw-1Dn" firstAttribute="leading" secondItem="XeF-24-AUG" secondAttribute="leading" id="Deq-De-kZS"/>
+                            <constraint firstItem="5eJ-BI-HEC" firstAttribute="centerX" secondItem="UfK-mo-6ek" secondAttribute="centerX" id="FT6-J0-J4t"/>
+                            <constraint firstItem="6YX-Gl-wsK" firstAttribute="trailing" secondItem="5eJ-BI-HEC" secondAttribute="trailing" id="WjR-IX-cV7"/>
+                            <constraint firstAttribute="bottom" secondItem="O1E-Lw-1Dn" secondAttribute="bottom" id="aIT-qA-43W"/>
+                            <constraint firstItem="6YX-Gl-wsK" firstAttribute="height" secondItem="5eJ-BI-HEC" secondAttribute="height" multiplier="0.234375" id="hiB-82-9da"/>
+                            <constraint firstItem="6YX-Gl-wsK" firstAttribute="centerY" secondItem="UfK-mo-6ek" secondAttribute="centerY" id="iwp-iB-wlN"/>
+                            <constraint firstItem="O1E-Lw-1Dn" firstAttribute="trailing" secondItem="XeF-24-AUG" secondAttribute="trailing" id="lrO-CC-7ks"/>
+                            <constraint firstItem="5eJ-BI-HEC" firstAttribute="centerY" secondItem="UfK-mo-6ek" secondAttribute="centerY" id="pET-qG-BQo"/>
+                            <constraint firstItem="6YX-Gl-wsK" firstAttribute="leading" secondItem="5eJ-BI-HEC" secondAttribute="leading" id="qre-sR-kQs"/>
+                            <constraint firstItem="6YX-Gl-wsK" firstAttribute="centerX" secondItem="5eJ-BI-HEC" secondAttribute="centerX" id="sKS-wl-rL1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XeF-24-AUG"/>
+                    </view>
+                    <connections>
+                        <outlet property="wisdomLabel" destination="6YX-Gl-wsK" id="Gzv-xL-kfs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HlK-bR-dff" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="869.56521739130437" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background-1742166_1280" width="1280" height="1280"/>
+        <image name="handwriting-1362879_1920" width="1920" height="1280"/>
+    </resources>
+</document>
