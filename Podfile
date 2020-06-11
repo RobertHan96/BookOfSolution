@@ -7,4 +7,6 @@ target 'BookOfSolution' do
 
   # Pods for BookOfSolution
 	pod 'Google-Mobile-Ads-SDK'
+  pod 'Firebase/Analytics'
+
 end
