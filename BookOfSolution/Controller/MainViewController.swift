@@ -14,7 +14,8 @@ class MainViewController: UIViewController {
     
     @IBAction func swipeAction (_ sender : UISwipeGestureRecognizer) {
 //        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        guard let wisdomVC = self.storyboard?.instantiateViewController(identifier: "wisdomVC") else {return}
+        guard let wisdomVC =
+        self.storyboard?.instantiateViewController(withIdentifier: "wisdomVC") else {return}
         wisdomVC.modalTransitionStyle = UIModalTransitionStyle.flipHorizontal
         if sender.direction == .left {
             self.present(wisdomVC, animated: true, completion: nil)

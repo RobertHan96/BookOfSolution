@@ -1,13 +1,6 @@
-//
-//  SceneDelegate.swift
-//  BookOfSolution
-//
-//  Created by Mac on 2020/03/04.
-//  Copyright © 2020 Mac. All rights reserved.
-//
-
 import UIKit
 
+@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
