@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>533234953703-hvg03k73vq32kk5lssi3chma70cbhq68.apps.googleusercontent.com</string>
+	<string>533234953703-282ot6b8uatopjqrhj7jdjp166j6noue.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.533234953703-hvg03k73vq32kk5lssi3chma70cbhq68</string>
+	<string>com.googleusercontent.apps.533234953703-282ot6b8uatopjqrhj7jdjp166j6noue</string>
 	<key>API_KEY</key>
 	<string>AIzaSyAwhwuSIVLzMUNiys085FJZ5tgnFsN2MzI</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>roberthan.BookOfSolution</string>
+	<string>com.studiofirstzero.bookofsolution</string>
 	<key>PROJECT_ID</key>
 	<string>bookofsolution</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:533234953703:ios:255b374a91c467caa86142</string>
+	<string>1:533234953703:ios:64863d156648d5f9a86142</string>
 	<key>DATABASE_URL</key>
 	<string>https://bookofsolution.firebaseio.com</string>
 </dict>
