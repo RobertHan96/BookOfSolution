@@ -6,7 +6,6 @@ target 'BookOfSolution' do
   use_frameworks!
 
   # Pods for BookOfSolution
-	pod 'Google-Mobile-Ads-SDK'
   pod 'Firebase/Analytics'
 
 end

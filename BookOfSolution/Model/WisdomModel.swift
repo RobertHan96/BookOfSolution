@@ -1,5 +1,4 @@
 import Foundation
-import GoogleMobileAds
 
 let widoms : [String] = [
     "wisdom1".localized, "wisdom2".localized, "wisdom3".localized, "wisdom4".localized,

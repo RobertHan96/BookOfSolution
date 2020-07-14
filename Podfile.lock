@@ -31,8 +31,6 @@ PODS:
     - FirebaseCore (~> 6.6)
     - GoogleUtilities/UserDefaults (~> 6.5)
     - PromisesObjC (~> 1.2)
-  - Google-Mobile-Ads-SDK (7.56.0):
-    - GoogleAppMeasurement (~> 6.0)
   - GoogleAppMeasurement (6.3.0):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
@@ -70,7 +68,6 @@ PODS:
 
 DEPENDENCIES:
   - Firebase/Analytics
-  - Google-Mobile-Ads-SDK
 
 SPEC REPOS:
   trunk:
@@ -80,7 +77,6 @@ SPEC REPOS:
     - FirebaseCoreDiagnostics
     - FirebaseCoreDiagnosticsInterop
     - FirebaseInstallations
-    - Google-Mobile-Ads-SDK
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
@@ -95,7 +91,6 @@ SPEC CHECKSUMS:
   FirebaseCoreDiagnostics: b59c024493a409f8aecba02c99928d0d8431d159
   FirebaseCoreDiagnosticsInterop: 296e2c5f5314500a850ad0b83e9e7c10b011a850
   FirebaseInstallations: acb3216eb9784d3b1d2d2d635ff74fa892cc0c44
-  Google-Mobile-Ads-SDK: 65e335fadc97c5a91a9d4546214bfd3a2fb11047
   GoogleAppMeasurement: 39ecba10918b21c83877d392246157f65db351cf
   GoogleDataTransport: f6f8eba931df03ebd2232ff4645aa85f8f47b5ab
   GoogleDataTransportCCTSupport: 0f39025e8cf51f168711bd3fb773938d7e62ddb5
@@ -103,6 +98,6 @@ SPEC CHECKSUMS:
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
 
-PODFILE CHECKSUM: d0cc29fdedd9d2c6d99210af2d81e2b8d5cc19a1
+PODFILE CHECKSUM: 8a84a87121ebf8b35543d2869748b9d783f848ba
 
 COCOAPODS: 1.9.0
