@@ -15,7 +15,7 @@ class SolutionViewController: UIViewController {
         UIView.animate(withDuration: 3) {
             self.wisdomLabel.alpha = 0.0
             self.wisdomLabel.alpha = 1.0
-            self.wisdomLabel.textColor = .brown
+            self.wisdomLabel.textColor = .darkText
         }
     }
    
