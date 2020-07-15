@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="handwriting-1362879_1920" translatesAutoresizingMaskIntoConstraints="NO" id="asg-rQ-ew0">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solution_view_background_img" translatesAutoresizingMaskIntoConstraints="NO" id="asg-rQ-ew0">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="책을 넘겨서 조언을 확인하세요" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXZ-Wp-hCb">
@@ -58,9 +60,9 @@
                                 <color key="backgroundColor" red="0.80756265862944165" green="0.66006745068070682" blue="0.4759807310555218" alpha="0.1407052654109589" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="당신은 이미 답을 알고있다" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6YX-Gl-wsK">
-                                <rect key="frame" x="30" y="343.5" width="354" height="30"/>
+                                <rect key="frame" x="30" y="433" width="354" height="30"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" name="solution_label"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -71,7 +73,7 @@
                             <constraint firstItem="6YX-Gl-wsK" firstAttribute="leading" secondItem="XeF-24-AUG" secondAttribute="leading" constant="30" id="OcC-Md-321"/>
                             <constraint firstAttribute="bottom" secondItem="O1E-Lw-1Dn" secondAttribute="bottom" id="aIT-qA-43W"/>
                             <constraint firstItem="6YX-Gl-wsK" firstAttribute="centerX" secondItem="UfK-mo-6ek" secondAttribute="centerX" id="cOc-XC-SQZ"/>
-                            <constraint firstItem="6YX-Gl-wsK" firstAttribute="centerY" secondItem="UfK-mo-6ek" secondAttribute="centerY" multiplier="0.8" id="iwp-iB-wlN"/>
+                            <constraint firstItem="6YX-Gl-wsK" firstAttribute="centerY" secondItem="UfK-mo-6ek" secondAttribute="centerY" id="iwp-iB-wlN"/>
                             <constraint firstItem="O1E-Lw-1Dn" firstAttribute="trailing" secondItem="XeF-24-AUG" secondAttribute="trailing" id="lrO-CC-7ks"/>
                             <constraint firstItem="XeF-24-AUG" firstAttribute="trailing" secondItem="6YX-Gl-wsK" secondAttribute="trailing" constant="30" id="nKk-RW-s9k"/>
                         </constraints>
@@ -88,6 +90,9 @@
     </scenes>
     <resources>
         <image name="background-1742166_1280" width="1280" height="1280"/>
-        <image name="handwriting-1362879_1920" width="1920" height="1280"/>
+        <image name="solution_view_background_img" width="1920" height="1280"/>
+        <namedColor name="solution_label">
+            <color red="0.078431372549019607" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
